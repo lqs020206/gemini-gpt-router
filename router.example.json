@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "codex_path": null,
+  "agy_path": null,
+  "disabled_workers": [],
+  "profiles": {
+    "neon": {
+      "standard": {"model": "Gemini 4 Neon", "effort": "medium", "slug": null},
+      "hard": {"model": "Gemini 4 Neon", "effort": "xhigh", "slug": null}
+    },
+    "carbon": {
+      "standard": {"model": "Gemini 4 Carbon", "effort": "medium", "slug": null},
+      "hard": {"model": "Gemini 4 Carbon", "effort": "high", "slug": null}
+    },
+    "claude": {
+      "standard": {"model": "Claude Sonnet 5.5", "effort": "medium if offered", "slug": null},
+      "hard": {"model": "Claude Opus 5.5", "effort": "highest offered", "slug": null}
+    },
+    "gpt": {
+      "standard": {"model": "gpt-6.2-sol", "effort": "medium"},
+      "hard": {"model": "gpt-6.2-astra", "effort": "ultra"}
+    }
+  }
+}

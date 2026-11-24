@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+router.local.json
+router.local.json.lock
+*-handoff.json
+router-setup-report.json
